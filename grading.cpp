@@ -2,8 +2,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
 #include "ReportCard.h"
+
 using namespace std;
 
 Student::Student(string n, int id) : name(n), studentID(id), gpa(0.0) {}

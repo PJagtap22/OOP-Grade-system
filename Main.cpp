@@ -27,7 +27,6 @@ int main() {
             
         cin.ignore();
         student.displayReportCard();
-         
 
         if (student.isEligible()) {
             cout << "Pass!" << endl;
